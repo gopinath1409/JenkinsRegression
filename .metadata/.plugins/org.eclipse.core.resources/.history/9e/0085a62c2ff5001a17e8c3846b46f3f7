@@ -1,0 +1,18 @@
+
+public class sample {
+
+	public static void main(String[] args) {
+		
+		     
+		{  
+			int number = 987654, res = 0;  
+			while(number != 0)   
+			{  
+			int remainder = number % 10;  
+			res = res * 10 + remainder;  
+			number = number/10;  
+			}  
+			System.out.println("The reverse of the given number is: " + res);  
+			}  
+			}  
+		}   

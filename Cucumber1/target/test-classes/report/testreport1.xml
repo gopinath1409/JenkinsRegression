@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="73.852815">
+<testcase classname="Verifying the Adactin functionalities" name="Verifying adactin login details with valid credentials" time="39.523623">
+<system-out><![CDATA[Given User is on the adactin page...........................................passed
+When User should enter "gopigopigopi" and "gopigopigopi"....................passed
+And User should click the login button......................................passed
+And User should verify msg..................................................passed
+And User should Search the Hotels "Sydney" , "Hotel Creek" , "Double".......passed
+And User should click the Search button.....................................passed
+And User should Select the Radio button.....................................passed
+And User should click the Continue button...................................passed
+And User should enter "Gopi" , "Nath" , "Ambattur" , "1587469831547456" , "VISA" , "January" , "2021" ,"246".passed
+Then User should click the Booknow button...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the Adactin functionalities" name="Verifying adactin login details with valid credentials 2" time="34.329192">
+<system-out><![CDATA[Given User is on the adactin page...........................................passed
+When User should enter "gopigopigopi" and "gopigopigopi"....................passed
+And User should click the login button......................................passed
+And User should verify msg..................................................passed
+And User should Search the Hotels "Sydney" , "Hotel Creek" , "Double".......passed
+And User should click the Search button.....................................passed
+And User should Select the Radio button.....................................passed
+And User should click the Continue button...................................passed
+And User should enter "Gopi" , "Nath" , "Ambattur" , "1587469831547456" , "VISA" , "January" , "2021" ,"246".passed
+Then User should click the Booknow button...................................passed
+]]></system-out>
+</testcase>
+</testsuite>

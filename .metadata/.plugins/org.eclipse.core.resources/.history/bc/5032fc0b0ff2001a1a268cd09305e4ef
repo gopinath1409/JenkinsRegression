@@ -1,0 +1,48 @@
+package com.stepdefinition;
+
+import com.base.LibGlobal;
+
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
+
+public class HookClass extends LibGlobal {
+	
+	@Before
+	public void beforeScenario1() {
+		System.out.println("Before scenario 1");
+		
+	}
+
+	@Before
+	public void beforeScenario2() {
+		System.out.println("Before scenario 2");
+		
+	}
+
+	@Before
+	public void beforeScenario3() {
+		System.out.println("Before scenario 3 ");
+		
+	}
+
+	@After(order=3)
+	public void AfterScenario1() {
+		System.out.println("After scenario 1 ");
+		
+	}
+	
+	@After(order=2)
+	public void AfterScenario2() {
+		System.out.println("After scenario 2 ");
+		
+	}
+	
+	@After(order=1)
+	public void AfterScenario3() {
+		System.out.println("After scenario 3 ");
+		
+	}
+	
+	
+	
+}
